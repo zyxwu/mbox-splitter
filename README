@@ -1,10 +1,9 @@
-mbox_splitter
+MBOX-SPLITTER
 
-Splits an mbox file into chunks of a given size.
+	Splits an mbox file into chunks of a given size.
 
 
 Usage
-
 	python mbox-splitter.py filename size
 
 Arguments:
@@ -13,7 +12,6 @@ Arguments:
 
 
 Example
-
 	python mbox-splitter.py inbox_test.mbox 50
 
 Result
