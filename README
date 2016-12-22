@@ -1,0 +1,23 @@
+mbox_splitter
+
+Splits an mbox file into chunks of a given size.
+
+
+Usage
+
+	python mbox-splitter.py filename size
+
+Arguments:
+	1) filename: Mbox archive to split.
+	2) size: a positive integer value of chunk size, in Mb
+
+
+Example
+
+	python mbox-splitter.py inbox_test.mbox 50
+
+Result
+	Created file `inbox_test_1.mbox`, size=43Mb, messages=35
+	Created file `inbox_test_2.mbox`, size=44Mb, messages=2
+	Created file `inbox_test_3.mbox`, size=30Mb, messages=73
+	Done
